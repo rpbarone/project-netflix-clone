@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+header{
+	background-color:#1b1b1b;
+	padding: .25rem;
+}
+
+header input {
+	background-color: #1b1b1b;
+	border: 1px solid #999898;
+}
+
+header img{
+	max-height: 130px;
+}
+
+
+main{
+	width: 100vh;
+	padding: 2rem 0 8rem 0;
+	background-size: cover;
+	background: url('full-banner.jpg') no-repeat center bottom;
+}
+
+.stats small{
+	color: #999898;
+	padding-right: .45rem;
+}
+
+div.button button{
+	color: white;
+	background-color: #e30f19;
+	border: 0;
+	font-weight: 500;
+	max-width: 7rem;
+}
+
+section.movies{
+	padding: 2rem 0 2rem 1rem;
+	background-color: #1b1b1b;
+}
+
+section.movies h5{
+	color: #999898;
+}
+
+.pop-movies, .alta-movies, .continue-movies{
+	overflow-x: hidden;
+}
+
+.pop-movies img, .alta-movies img, .continue-movies img {
+	width: 48%;
+	max-width: 170px;
+	padding-right: .45rem;
+}
+
+.alta-movies, .continue-movies, footer {
+	margin-top: 1rem;
+}
+
+footer{
+	color: #4d4d4d;
+}
